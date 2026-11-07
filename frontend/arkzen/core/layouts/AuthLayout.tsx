@@ -36,8 +36,8 @@ export const AuthLayout: React.FC<AuthLayoutProps> = ({
   const router              = useArkzenRouter()
   const pathname            = useArkzenPathname()
   const segments             = pathname.split('/').filter(Boolean)
-  const tatemono             = segments[0] ?? ''
-  const hydrated            = useAuthStoreHydrated(tatemono)
+  const tatemono = ''
+  const hydrated            = useAuthStoreHydrated('kotoba')
   const [checking, setChecking] = useState(requireAuth)
   const checked = useRef(false)
 
