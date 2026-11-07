@@ -1,0 +1,14 @@
+FROM node:22-bookworm-slim
+WORKDIR /app
+COPY package*.json ./
+RUN if [ -f package-lock.json ]; then npm ci --no-audit --no-fund; else npm install --no-audit --no-fund; fi
+COPY . .
+ARG REALTIME_HOST=localhost
+ARG REALTIME_PORT=8080
+ARG REALTIME_SCHEME=ws
+ARG REVERB_APP_KEY=arkzen-key
+ENV NEXT_PUBLIC_REVERB_HOST=$REALTIME_HOST NEXT_PUBLIC_REVERB_PORT=$REALTIME_PORT NEXT_PUBLIC_REVERB_SCHEME=$REALTIME_SCHEME NEXT_PUBLIC_REVERB_APP_KEY=$REVERB_APP_KEY
+ENV NODE_ENV=production NEXT_TELEMETRY_DISABLED=1 HOSTNAME=0.0.0.0 PORT=3001
+RUN npm run build
+EXPOSE 3001
+CMD ["npm", "start"]

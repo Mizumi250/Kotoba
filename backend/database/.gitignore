@@ -1,0 +1,3 @@
+*.sqlite*
+!arkzen/
+!arkzen/kotoba.sqlite

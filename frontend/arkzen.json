@@ -1,0 +1,618 @@
+{
+  "engine": "5.1.0",
+  "project": "frontend",
+  "modules": [
+    {
+      "name": "animation-lab",
+      "version": "1.0.0",
+      "status": "active",
+      "filePath": "tatemonos/animation-lab/core.tsx",
+      "pages": [
+        "index"
+      ],
+      "registered": "2026-05-13T10:51:31.044Z",
+      "lastUpdated": "2026-11-07T08:54:57.906Z",
+      "auth": false
+    },
+    {
+      "name": "aspnet-ledger",
+      "version": "2.0.0",
+      "status": "active",
+      "filePath": "tatemonos/aspnet-ledger/core.tsx",
+      "pages": [
+        "index"
+      ],
+      "registered": "2026-11-02T13:33:08.955Z",
+      "lastUpdated": "2026-11-07T08:54:58.295Z",
+      "auth": false
+    },
+    {
+      "name": "aspnet-test",
+      "version": "2.0.0",
+      "status": "active",
+      "filePath": "tatemonos/aspnet-test/core.tsx",
+      "pages": [
+        "index"
+      ],
+      "registered": "2026-11-02T13:33:09.280Z",
+      "lastUpdated": "2026-11-07T08:54:58.802Z",
+      "auth": true
+    },
+    {
+      "name": "asset-hub",
+      "version": "2.1.0",
+      "status": "active",
+      "filePath": "tatemonos/asset-hub/core.tsx",
+      "pages": [
+        "index"
+      ],
+      "registered": "2026-05-14T16:18:56.852Z",
+      "lastUpdated": "2026-11-07T08:54:58.997Z",
+      "auth": false
+    },
+    {
+      "name": "atelier",
+      "version": "1.0.0",
+      "status": "active",
+      "filePath": "tatemonos/atelier/core.tsx",
+      "pages": [
+        "index"
+      ],
+      "registered": "2026-06-19T13:19:22.316Z",
+      "lastUpdated": "2026-11-07T08:54:59.341Z",
+      "auth": false
+    },
+    {
+      "name": "auth-test",
+      "version": "1.0.0",
+      "status": "active",
+      "filePath": "tatemonos/auth-test/core.tsx",
+      "pages": [
+        "login",
+        "register",
+        "dashboard"
+      ],
+      "registered": "2026-05-01T09:26:51.656Z",
+      "lastUpdated": "2026-11-07T08:54:59.613Z",
+      "auth": true
+    },
+    {
+      "name": "body-endpoint-handler",
+      "version": "1.0.0",
+      "status": "active",
+      "filePath": "tatemonos/body-endpoint-handler/core.tsx",
+      "pages": [
+        "index"
+      ],
+      "registered": "2026-05-01T09:26:52.276Z",
+      "lastUpdated": "2026-11-07T08:54:59.887Z",
+      "auth": false
+    },
+    {
+      "name": "body-mail-notification",
+      "version": "1.0.0",
+      "status": "active",
+      "filePath": "tatemonos/body-mail-notification/core.tsx",
+      "pages": [
+        "login",
+        "register",
+        "dashboard"
+      ],
+      "registered": "2026-05-01T09:26:52.924Z",
+      "lastUpdated": "2026-11-07T08:55:00.449Z",
+      "auth": true
+    },
+    {
+      "name": "broadcast-test",
+      "version": "2.0.0",
+      "status": "active",
+      "filePath": "tatemonos/broadcast-test/core.tsx",
+      "pages": [
+        "login",
+        "register",
+        "dashboard"
+      ],
+      "registered": "2026-05-01T09:26:53.210Z",
+      "lastUpdated": "2026-11-07T08:55:00.853Z",
+      "auth": true
+    },
+    {
+      "name": "cafe-teresita",
+      "version": "3.0.0",
+      "status": "active",
+      "filePath": "tatemonos/cafe-teresita/core.tsx",
+      "pages": [
+        "index"
+      ],
+      "registered": "2026-06-19T13:19:27.642Z",
+      "lastUpdated": "2026-11-07T08:55:01.118Z",
+      "auth": false
+    },
+    {
+      "name": "crud-test",
+      "version": "1.0.0",
+      "status": "active",
+      "filePath": "tatemonos/crud-test/core.tsx",
+      "pages": [
+        "index"
+      ],
+      "registered": "2026-05-01T09:26:53.480Z",
+      "lastUpdated": "2026-11-07T08:55:01.360Z",
+      "auth": false
+    },
+    {
+      "name": "dtr-geofencing",
+      "version": "2.0.0",
+      "status": "active",
+      "filePath": "tatemonos/dtr-geofencing/core.tsx",
+      "pages": [
+        "index",
+        "admin"
+      ],
+      "registered": "2026-05-01T09:26:53.848Z",
+      "lastUpdated": "2026-11-07T08:55:02.087Z",
+      "auth": false
+    },
+    {
+      "name": "errors-test",
+      "version": "1.2.0",
+      "status": "active",
+      "filePath": "tatemonos/errors-test/core.tsx",
+      "pages": [
+        "index"
+      ],
+      "registered": "2026-05-01T09:26:54.054Z",
+      "lastUpdated": "2026-11-07T08:55:02.328Z",
+      "auth": false
+    },
+    {
+      "name": "ethan-pool",
+      "version": "1.0.1",
+      "status": "active",
+      "filePath": "tatemonos/ethan-pool/core.tsx",
+      "pages": [
+        "index"
+      ],
+      "registered": "2026-06-19T13:19:30.434Z",
+      "lastUpdated": "2026-11-07T08:55:02.565Z",
+      "auth": false
+    },
+    {
+      "name": "ethereane",
+      "version": "2.0.2",
+      "status": "active",
+      "filePath": "tatemonos/ethereane/core.tsx",
+      "pages": [
+        "index"
+      ],
+      "registered": "2026-06-19T13:19:30.750Z",
+      "lastUpdated": "2026-11-07T08:55:02.913Z",
+      "auth": false
+    },
+    {
+      "name": "events-test",
+      "version": "1.0.0",
+      "status": "active",
+      "filePath": "tatemonos/events-test/core.tsx",
+      "pages": [
+        "index"
+      ],
+      "registered": "2026-05-01T09:26:54.306Z",
+      "lastUpdated": "2026-11-07T08:55:03.230Z",
+      "auth": false
+    },
+    {
+      "name": "express-test",
+      "version": "1.0.0",
+      "status": "active",
+      "filePath": "tatemonos/express-test/core.tsx",
+      "pages": [
+        "index"
+      ],
+      "registered": "2026-10-31T12:45:13.398Z",
+      "lastUpdated": "2026-11-07T08:55:03.533Z",
+      "auth": true
+    },
+    {
+      "name": "express-test-2",
+      "version": "1.0.0",
+      "status": "active",
+      "filePath": "tatemonos/express-test-2/core.tsx",
+      "pages": [
+        "index"
+      ],
+      "registered": "2026-11-01T01:25:40.704Z",
+      "lastUpdated": "2026-11-07T08:55:04.018Z",
+      "auth": true
+    },
+    {
+      "name": "fastapi-test",
+      "version": "1.0.0",
+      "status": "active",
+      "filePath": "tatemonos/fastapi-test/core.tsx",
+      "pages": [
+        "index"
+      ],
+      "registered": "2026-11-01T03:47:30.828Z",
+      "lastUpdated": "2026-11-07T08:55:04.278Z",
+      "auth": true
+    },
+    {
+      "name": "go-backend-test",
+      "version": "1.0.0",
+      "status": "active",
+      "filePath": "tatemonos/go-backend-test/core.tsx",
+      "pages": [
+        "index"
+      ],
+      "registered": "2026-11-03T09:21:15.619Z",
+      "lastUpdated": "2026-11-07T08:55:04.548Z",
+      "auth": false
+    },
+    {
+      "name": "go-concurrency-lab",
+      "version": "1.0.0",
+      "status": "active",
+      "filePath": "tatemonos/go-concurrency-lab/core.tsx",
+      "pages": [
+        "index"
+      ],
+      "registered": "2026-11-03T10:18:48.920Z",
+      "lastUpdated": "2026-11-07T08:55:04.766Z",
+      "auth": false
+    },
+    {
+      "name": "godot-game",
+      "version": "1.0.0",
+      "status": "active",
+      "filePath": "tatemonos/godot-game/core.tsx",
+      "pages": [],
+      "auth": false,
+      "registered": "2026-11-06T15:43:10.942Z",
+      "lastUpdated": "2026-11-06T15:43:10.942Z"
+    },
+    {
+      "name": "hello-native",
+      "version": "1.0.0",
+      "status": "active",
+      "filePath": "tatemonos/hello-native/core.tsx",
+      "pages": [],
+      "registered": "2026-05-29T11:51:25.727Z",
+      "lastUpdated": "2026-11-07T08:55:05.087Z",
+      "auth": false
+    },
+    {
+      "name": "hw-coffee",
+      "version": "2.0.0",
+      "status": "active",
+      "filePath": "tatemonos/hw-coffee/core.tsx",
+      "pages": [
+        "index"
+      ],
+      "registered": "2026-06-19T13:19:31.891Z",
+      "lastUpdated": "2026-11-07T08:55:05.333Z",
+      "auth": false
+    },
+    {
+      "name": "inventory-management",
+      "version": "2.0.0",
+      "status": "active",
+      "filePath": "tatemonos/inventory-management/core.tsx",
+      "pages": [
+        "index"
+      ],
+      "registered": "2026-05-01T09:26:54.554Z",
+      "lastUpdated": "2026-11-07T08:55:05.589Z",
+      "auth": false
+    },
+    {
+      "name": "jo-payroll",
+      "version": "2.0.0",
+      "status": "active",
+      "filePath": "tatemonos/jo-payroll/core.tsx",
+      "pages": [
+        "index",
+        "job-database",
+        "cash-atm",
+        "sss",
+        "hdmf",
+        "appointments",
+        "payslip"
+      ],
+      "registered": "2026-05-01T09:26:54.808Z",
+      "lastUpdated": "2026-11-07T08:55:06.381Z",
+      "auth": false
+    },
+    {
+      "name": "job-test",
+      "version": "1.0.0",
+      "status": "active",
+      "filePath": "tatemonos/job-test/core.tsx",
+      "pages": [
+        "dashboard"
+      ],
+      "registered": "2026-05-01T09:26:55.121Z",
+      "lastUpdated": "2026-11-07T08:55:06.671Z",
+      "auth": false
+    },
+    {
+      "name": "kotoba",
+      "version": "1.0.0",
+      "status": "active",
+      "filePath": "tatemonos/kotoba/core.tsx",
+      "pages": [
+        "index",
+        "login",
+        "register",
+        "dashboard",
+        "feed",
+        "learn",
+        "review",
+        "partners",
+        "chat",
+        "circles",
+        "progress",
+        "profile"
+      ],
+      "registered": "2026-10-27T08:12:55.386Z",
+      "lastUpdated": "2026-11-07T08:57:54.608Z",
+      "auth": true,
+      "desktopConfig": {
+        "window": {
+          "width": 1280,
+          "height": 840,
+          "min_width": 960,
+          "min_height": 640,
+          "resizable": true,
+          "fullscreenable": true,
+          "title": "Kotoba"
+        }
+      }
+    },
+    {
+      "name": "lain098",
+      "version": "4.0.0",
+      "status": "active",
+      "filePath": "tatemonos/lain098/core.tsx",
+      "pages": [
+        "index"
+      ],
+      "registered": "2026-10-09T13:26:12.241Z",
+      "lastUpdated": "2026-11-07T08:55:10.012Z",
+      "auth": false
+    },
+    {
+      "name": "layout-test",
+      "version": "1.0.0",
+      "status": "active",
+      "filePath": "tatemonos/layout-test/core.tsx",
+      "pages": [
+        "index",
+        "panel",
+        "deep",
+        "guard-auth",
+        "chain-auth",
+        "guard-guest",
+        "chain-guest"
+      ],
+      "registered": "2026-06-19T13:19:34.412Z",
+      "lastUpdated": "2026-11-07T08:55:10.257Z",
+      "auth": false
+    },
+    {
+      "name": "mail-test",
+      "version": "2.0.0",
+      "status": "active",
+      "filePath": "tatemonos/mail-test/core.tsx",
+      "pages": [
+        "login",
+        "register",
+        "dashboard"
+      ],
+      "registered": "2026-05-01T09:26:55.397Z",
+      "lastUpdated": "2026-11-07T08:55:10.722Z",
+      "auth": true
+    },
+    {
+      "name": "middleware-test",
+      "version": "2.1.0",
+      "status": "active",
+      "filePath": "tatemonos/middleware-test/core.tsx",
+      "pages": [
+        "index"
+      ],
+      "registered": "2026-05-01T09:26:55.644Z",
+      "lastUpdated": "2026-11-07T08:55:10.972Z",
+      "auth": false
+    },
+    {
+      "name": "mobile-sdui",
+      "version": "1.0.0",
+      "status": "active",
+      "filePath": "tatemonos/mobile-sdui/core.tsx",
+      "pages": [],
+      "registered": "2026-11-04T02:14:03.254Z",
+      "lastUpdated": "2026-11-07T08:55:11.193Z",
+      "auth": false
+    },
+    {
+      "name": "new-updates-styles",
+      "version": "2.0.0",
+      "status": "active",
+      "filePath": "tatemonos/new-updates-styles/core.tsx",
+      "pages": [
+        "index",
+        "about",
+        "features"
+      ],
+      "registered": "2026-05-01T09:26:55.808Z",
+      "lastUpdated": "2026-11-07T08:55:11.427Z",
+      "auth": false
+    },
+    {
+      "name": "notification-test",
+      "version": "2.1.0",
+      "status": "active",
+      "filePath": "tatemonos/notification-test/core.tsx",
+      "pages": [
+        "login",
+        "register",
+        "dashboard"
+      ],
+      "registered": "2026-05-01T09:26:56.063Z",
+      "lastUpdated": "2026-11-07T08:55:11.679Z",
+      "auth": true
+    },
+    {
+      "name": "ollama-studio",
+      "version": "1.0.0",
+      "status": "active",
+      "filePath": "tatemonos/ollama-studio/core.tsx",
+      "pages": [
+        "index"
+      ],
+      "registered": "2026-11-01T11:17:42.101Z",
+      "lastUpdated": "2026-11-07T08:55:11.902Z",
+      "auth": false
+    },
+    {
+      "name": "portfolio-test",
+      "version": "1.0.0",
+      "status": "active",
+      "filePath": "tatemonos/portfolio-test/core.tsx",
+      "pages": [
+        "index"
+      ],
+      "registered": "2026-05-01T09:26:56.225Z",
+      "lastUpdated": "2026-11-07T08:55:12.081Z",
+      "auth": false
+    },
+    {
+      "name": "queue-flow",
+      "version": "1.0.0",
+      "status": "active",
+      "filePath": "tatemonos/queue-flow/core.tsx",
+      "pages": [
+        "index",
+        "join",
+        "admin"
+      ],
+      "registered": "2026-05-03T02:23:38.494Z",
+      "lastUpdated": "2026-11-07T08:55:12.515Z",
+      "auth": false
+    },
+    {
+      "name": "roles-test",
+      "version": "2.1.0",
+      "status": "active",
+      "filePath": "tatemonos/roles-test/core.tsx",
+      "pages": [
+        "login",
+        "register",
+        "dashboard"
+      ],
+      "registered": "2026-05-01T09:26:57.192Z",
+      "lastUpdated": "2026-11-07T08:55:13.191Z",
+      "auth": true
+    },
+    {
+      "name": "rust-backend-test",
+      "version": "1.0.0",
+      "status": "active",
+      "filePath": "tatemonos/rust-backend-test/core.tsx",
+      "pages": [
+        "index"
+      ],
+      "registered": "2026-11-03T09:21:23.738Z",
+      "lastUpdated": "2026-11-07T08:55:13.405Z",
+      "auth": false
+    },
+    {
+      "name": "scheduler-test",
+      "version": "2.0.0",
+      "status": "active",
+      "filePath": "tatemonos/scheduler-test/core.tsx",
+      "pages": [
+        "dashboard"
+      ],
+      "registered": "2026-05-01T09:26:57.499Z",
+      "lastUpdated": "2026-11-07T08:55:13.633Z",
+      "auth": false
+    },
+    {
+      "name": "shan-shan",
+      "version": "2.0.0",
+      "status": "active",
+      "filePath": "tatemonos/shan-shan/core.tsx",
+      "pages": [
+        "index"
+      ],
+      "registered": "2026-05-29T04:43:14.326Z",
+      "lastUpdated": "2026-11-07T08:55:13.936Z",
+      "auth": false
+    },
+    {
+      "name": "shikaku",
+      "version": "1.0.0",
+      "status": "active",
+      "filePath": "tatemonos/shikaku/core.tsx",
+      "pages": [
+        "login",
+        "register",
+        "index",
+        "editor"
+      ],
+      "registered": "2026-10-09T13:26:13.156Z",
+      "lastUpdated": "2026-11-07T08:55:14.438Z",
+      "auth": true
+    },
+    {
+      "name": "spring-ledger",
+      "version": "1.0.0",
+      "status": "active",
+      "filePath": "tatemonos/spring-ledger/core.tsx",
+      "pages": [
+        "index"
+      ],
+      "registered": "2026-11-02T04:53:51.000Z",
+      "lastUpdated": "2026-11-07T08:55:14.684Z",
+      "auth": false
+    },
+    {
+      "name": "spring-test",
+      "version": "1.0.0",
+      "status": "active",
+      "filePath": "tatemonos/spring-test/core.tsx",
+      "pages": [
+        "index"
+      ],
+      "registered": "2026-11-02T04:18:12.313Z",
+      "lastUpdated": "2026-11-07T08:55:14.900Z",
+      "auth": false
+    },
+    {
+      "name": "upload-test",
+      "version": "1.0.0",
+      "status": "active",
+      "filePath": "tatemonos/upload-test/core.tsx",
+      "pages": [
+        "dashboard"
+      ],
+      "registered": "2026-05-01T09:26:57.754Z",
+      "lastUpdated": "2026-11-07T08:55:15.277Z",
+      "auth": false
+    },
+    {
+      "name": "visual-lab",
+      "version": "1.0.0",
+      "status": "active",
+      "filePath": "tatemonos/visual-lab/core.tsx",
+      "pages": [
+        "index"
+      ],
+      "registered": "2026-05-23T08:36:31.379Z",
+      "lastUpdated": "2026-11-07T08:55:15.876Z",
+      "auth": false
+    }
+  ]
+}

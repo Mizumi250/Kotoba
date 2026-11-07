@@ -1,0 +1,8 @@
+**/node_modules/
+**/vendor/
+**/.next/
+**/.env
+**/.env.local
+deploy.env
+*.log
+.DS_Store

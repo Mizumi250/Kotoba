@@ -1,0 +1,16 @@
+# One public address. Caddy sends /api and /storage to the backend and everything else to the website.
+# Set SITE_ADDRESS in deploy.env to your domain and Caddy gets a free HTTPS certificate automatically.
+{$SITE_ADDRESS::80} {
+  encode gzip
+  @realtime path /app/* /apps/*
+  handle @realtime {
+    reverse_proxy {$REALTIME_UPSTREAM:reverb:8081}
+  }
+  @backend path /api/* /storage/*
+  handle @backend {
+    reverse_proxy {$BACKEND_UPSTREAM:backend:8001}
+  }
+  handle {
+    reverse_proxy {$FRONTEND_UPSTREAM:frontend:3001}
+  }
+}
