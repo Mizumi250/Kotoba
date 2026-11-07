@@ -38,8 +38,8 @@ export const GuestLayout: React.FC<GuestLayoutProps> = ({
   const router              = useArkzenRouter()
   const pathname            = useArkzenPathname()
   const segments             = pathname.split('/').filter(Boolean)
-  const tatemono             = segments[0] ?? ''
-  const hydrated            = useAuthStoreHydrated(tatemono)
+  const tatemono = ''
+  const hydrated            = useAuthStoreHydrated('kotoba')
   const { isAuthenticated } = useAuthStore()
   const shouldGuard         = redirectIfAuth || guestOnly
   const [checking, setChecking] = useState(shouldGuard)
@@ -48,7 +48,7 @@ export const GuestLayout: React.FC<GuestLayoutProps> = ({
 
   const getDashboard = () => {
     const segments = pathname.split('/').filter(Boolean)
-    const tatemono = segments[0] ?? ''
+    const tatemono = ''
     return redirectTo ?? (tatemono ? `/${tatemono}/dashboard` : '/dashboard')
   }
 
